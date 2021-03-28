@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\KeyDown\KeyDown\bin\Debug\KeyDown.exe.config
+C:\Users\admin\source\repos\KeyDown\KeyDown\bin\Debug\KeyDown.exe
+C:\Users\admin\source\repos\KeyDown\KeyDown\bin\Debug\KeyDown.pdb
+C:\Users\admin\source\repos\KeyDown\KeyDown\obj\Debug\KeyDown.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\KeyDown\KeyDown\obj\Debug\KeyDown.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\KeyDown\KeyDown\obj\Debug\KeyDown.exe
+C:\Users\admin\source\repos\KeyDown\KeyDown\obj\Debug\KeyDown.pdb
