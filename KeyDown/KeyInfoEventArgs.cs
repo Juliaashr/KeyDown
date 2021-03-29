@@ -8,10 +8,7 @@ namespace KeyDown
 {
     public class KeyInfoEventArgs : EventArgs
     {
-        public KeyInfoEventArgs(string key)
-        {
-            this.Key = key;
-        }
+        public KeyInfoEventArgs(string key) => Key = key;
         public string Key { get; private set; }
     }
 }

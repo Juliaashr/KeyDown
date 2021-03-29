@@ -5,3 +5,10 @@ C:\Users\admin\source\repos\KeyDown\KeyDown\obj\Debug\KeyDown.csprojAssemblyRefe
 C:\Users\admin\source\repos\KeyDown\KeyDown\obj\Debug\KeyDown.csproj.CoreCompileInputs.cache
 C:\Users\admin\source\repos\KeyDown\KeyDown\obj\Debug\KeyDown.exe
 C:\Users\admin\source\repos\KeyDown\KeyDown\obj\Debug\KeyDown.pdb
+D:\key\KeyDown\bin\Debug\KeyDown.exe.config
+D:\key\KeyDown\bin\Debug\KeyDown.exe
+D:\key\KeyDown\bin\Debug\KeyDown.pdb
+D:\key\KeyDown\obj\Debug\KeyDown.csprojAssemblyReference.cache
+D:\key\KeyDown\obj\Debug\KeyDown.csproj.CoreCompileInputs.cache
+D:\key\KeyDown\obj\Debug\KeyDown.exe
+D:\key\KeyDown\obj\Debug\KeyDown.pdb

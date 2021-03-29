@@ -9,19 +9,9 @@ namespace KeyDown
     public class Keyboard
     {
         public event EventHandler<KeyInfoEventArgs> PressKey = null;
-        public void PressKeyEvent(string key)
-        {
-            RaiseNewKeyInfo(key);
-        }
 
-        protected virtual void RaiseNewKeyInfo(string key)
-        {
-            EventHandler<KeyInfoEventArgs> newKeylnfo = PressKey;
-            if (newKeylnfo != null)
-            {
-                newKeylnfo(this, new KeyInfoEventArgs(key));
-            }
-        }
+        protected virtual void RaiseNewKeyInfo(string key) => PressKey?.Invoke(this, new KeyInfoEventArgs(key));
+        
 
         public void Start()
         {
@@ -33,18 +23,15 @@ namespace KeyDown
 
                 string key = Console.ReadLine();
 
-                if (key == "выход")
+                if (key == "выход" || key == null)
                 {
                     Console.WriteLine($"выполнен выход в {DateTime.Now}");
                     break;
                 }
 
-                else if (key.ToCharArray().Length > 1)
-                    Console.WriteLine("Было нажато несколько клавиш за раз, определить их невозможно");
-
-                else
+                else if (key?.ToCharArray().Length < 2)
                 {
-                    PressKeyEvent(key);
+                    RaiseNewKeyInfo(key);
                     num++;
                 }
             }
