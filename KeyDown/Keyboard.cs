@@ -29,7 +29,7 @@ namespace KeyDown
                     break;
                 }
 
-                else if (key?.ToCharArray().Length < 2)
+                else if (key.ToCharArray().Length < 2)
                 {
                     RaiseNewKeyInfo(key);
                     num++;
